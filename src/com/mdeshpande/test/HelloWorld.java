@@ -9,7 +9,7 @@ public class HelloWorld {
 
 	@GET
 	@Path("/hello")
-	public String convertCtoF() {
+	public String greet() {
  
 		return "HelloWorld";
 	}
